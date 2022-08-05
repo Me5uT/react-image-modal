@@ -1,0 +1,53 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+* {
+  font-family: "Catamaran", sans-serif;
+  box-sizing: border-box;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.r-img-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.r-img {
+  cursor: pointer;
+}
+
+.r-img-modal-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.r-img-modal-content {
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  right: 10vw;
+  bottom: 10vh;
+}
+.r-img-modal-action {
+  position: fixed;
+  right: 15px;
+  top: 20px;
+}
